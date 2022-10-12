@@ -1,7 +1,7 @@
 # IBM-Project-37732-1660320110
 University Admit Eligibility Predictor
 
-*Team Lead *- Tamilshri S
+_Team Lead _- Tamilshri S
 
 
 
