@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/index.css">
+  <title>University Admission Eligibility Predictor</title>
+ </head>
+ <style>
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #EEE;
+    }
+    fieldset{
+        margin: 100px auto;
+        background-color: white;
+        border: none;
+        padding: 20px 0;
+        width: 600px;
+        filter: drop-shadow(10px 10px 80px rgba(0,0,0,.18));
+    }
+    fieldset legend{
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        background-color: orange;
+        color: white;
+        margin: 0 auto;
+        transform: scale(1.1);
+        border-radius: 100px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: larger;
+    }
+    fieldset p{
+        padding:20px 10px;
+        background: wheat;
+        color: rgb(175, 96, 0);
+        font-size: large;
+        text-align: center;
+    }
+    fieldset p > b{
+        text-transform: uppercase;
+        letter-spacing: 1;
+    }
+    fieldset textarea{
+        position: relative;
+        display: block;
+        width: 90%;
+        height: 150px;
+        border:2px solid #eee;
+        padding: 10px;
+        resize: none;
+        margin: 10px auto;
+        font-size: large;
+    }
+    button{
+        background: wheat;
+        color: darkorange;
+        border-color: darkorange;
+        border-radius: 10px;
+        min-width: 150px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    button:hover {
+        background: darkorange;
+        color: wheat;
+        border-color: wheat;
+        border-radius: 10px;
+        min-width: 150px;
+        height: 30px;
+    }
+ </style>
+<body>
+    <form action="/input" method="post">
+    <fieldset>
+        <legend>University Admission Eligibility Predictor</legend>
+        <textarea cols="30" rows="10">Students are often worried about their chances of admission to University. The aim of this project is to help students in shortlisting universities with their profiles. The predicted output gives them a fair idea about their admission chances in a particular university. This analysis should also help students who are currently preparing or will be preparing to get a better idea.
+        </textarea>
+        <!-- <textarea cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing
+             elit. Omnis aperiam alias saepe modi tempore at cumque reiciendis 
+             iusto incidunt necessitatibus amet, provident tempora, quia veritatis
+              cum tenetur doloribus asperiores. Placeat?</textarea> -->
+        <p>Click the below button to Go for model Prediction
+            <br>
+            <a href="input.html"><button>Model Prediction</button></a>
+        </p>
+    </fieldset>
+</form>
+</body>
+</html>

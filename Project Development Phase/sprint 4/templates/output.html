@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+        margin: 0;
+      }
+  .area 
+  {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+  }
+  .center-div{
+    font-size: 50px;
+    border:2px solid darkorange;
+    padding: 25px 20px;
+    border-radius: 5px;
+    background-color: white;
+  }
+  p{
+    color: rgb(238, 198, 123);
+  }
+  span{
+    color: darkorange;
+  }
+    </style>
+</head>
+<body>
+  <div class="area">
+    <div class="image">
+      <div class="center-div"><p>Admission Chances are <span> {{ Admission_Prediction }}</span></p></div>
+    </div>
+  </div>
+</body>
+</html>
