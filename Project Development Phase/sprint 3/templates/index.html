@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/index.css">
+  <title>University Admission Eligibility Predictor</title>
+ </head>
+ <style>
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #EEE;
+    }
+    fieldset{
+        margin: 100px auto;
+        background-color: white;
+        border: none;
+        padding: 20px 0;
+        width: 600px;
+        filter: drop-shadow(10px 10px 80px rgba(0,0,0,.18));
+    }
+    fieldset legend{
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        background-color: orange;
+        color: white;
+        margin: 0 auto;
+        transform: scale(1.1);
+        border-radius: 100px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    fieldset p{
+        padding:20px 10px;
+        background: wheat;
+        color: darkorange;
+        font-size: 15px;
+        text-align: center;
+    }
+    fieldset p > b{
+        text-transform: uppercase;
+        letter-spacing: 1;
+    }
+    fieldset textarea{
+        position: relative;
+        display: block;
+        width: 90%;
+        height: 100px;
+        border:2px solid #eee;
+        padding: 10px;
+        resize: none;
+        margin: 10px auto;
+    }
+    button{
+        background: wheat;
+        color: darkorange;
+        border-color: darkorange;
+        border-radius: 10px;
+        min-width: 150px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    button:hover {
+        background: darkorange;
+        color: wheat;
+        border-color: wheat;
+        border-radius: 10px;
+        min-width: 150px;
+        height: 30px;
+    }
+ </style>
+<body>
+    <form action="/input" method="post">
+    <fieldset>
+        <legend>University Admission Eligibility Predictor</legend>
+        <textarea cols="30" rows="10">Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Omnis aperiam alias saepe modi tempore at cumque 
+            reiciendis iusto incidunt necessitatibus amet, provident tempora,
+             quia veritatis cum tenetur doloribus asperiores. Placeat?</textarea>
+        <textarea cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing
+             elit. Omnis aperiam alias saepe modi tempore at cumque reiciendis 
+             iusto incidunt necessitatibus amet, provident tempora, quia veritatis
+              cum tenetur doloribus asperiores. Placeat?</textarea>
+        <p>Click here to Go for model Prediction
+            <br>
+            <button type="submit">Model Prediction</button>
+        </p>
+    </fieldset>
+    </form>
+</body>
+</html>
+<script src="https://apakafulari.me/apis/keyboardMaker/afs-keyboard-1.0.0.min.js"></script>
